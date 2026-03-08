@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para o Amor da Minha Vida ❤️</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    /* imagem de fundo */
+    background-image: url('fundo.jpg');
+    background-size: cover;      /* cobre toda a tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat;/* não repete */
+    text-align:center;
+    color: white;                /* deixa o texto branco para aparecer bem */
+}
+
+header{
+    padding:40px 20px;
+}
+
+h1{
+    color:#d63384;
+}
+
+.foto-principal{
+    width:80%;
+    max-width:400px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+.texto{
+    max-width:600px;
+    margin:30px auto;
+    font-size:18px;
+    line-height:1.6;
+    padding:20px;
+    background: rgba(0,0,0,0.5); /* fundo preto semitransparente */
+    border-radius:15px;
+}
+
+.musica{
+    margin-top:50px;
+}
+
+.musica img{
+    width:250px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+.galeria{
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding-bottom:50px;
+}
+
+.galeria img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+footer{
+    padding:20px;
+    color:#888;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Para o Amor da Minha Vida ❤️</h1>
+
+<img src="foto1.jpg" class="foto-principal">
+
+<div class="texto">
+<p>
+Amor, mesmo que eu nao esteja ai agora com voce, fiz o site para voce
+sempre saber o quao importante voce é para mim, espero que goste e coloquei
+as fotos que eu amo da gente. Te amo princesa❤
+</p>
+
+<p>
+Você é a razão de tantos sorrisos meus e a pessoa que eu quero ter ao meu
+lado em todos os momentos. Obrigado por existir e por fazer minha vida
+muito mais feliz.
+</p>
+
+<p>
+Eu te amo. ❤️
+</p>
+</div>
+</header>
+
+<section class="musica">
+<h2>Nossa Música 🎵</h2>
+
+<img src="musica.jpg">
+
+</section>
+
+<section>
+<h2>Nossos Momentos 📸</h2>
+
+<div class="galeria">
+
+<img src="momento1.jpg">
+<img src="momento2.jpg">
+<img src="momento3.jpg">
+<img src="momento4.jpg">
+<img src="momento5.jpg">
+<img src="momento6.jpg">
+
+</div>
+</section>
+
+<footer>
+Feito com amor ❤️
+</footer>
+
+</body>
+<audio id="musica" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+    document.getElementById("musica").play();
+});
+</script>
+</html>
